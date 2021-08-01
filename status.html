@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="utf-8">
+
+    <h1><font color="red">Raspberry 4b</font> Status info</h1>
+    <body>
+        <ul>
+            <li><h2>CPU Temperature: <font color="red">{cpu_t}</font> &deg;C</h2></li>
+            <li><h2>CPU Load: <font color="red">{cpu_l}%</font></h2></li>
+            <li><h2>Used space on disk: <font color="blue">{disk_u:.5}</font> Gb</h2></li>
+            <li><h2>Free space on disk: <font color="blue">{disk_f:.5}</font> Gb</h2></li>
+            <li><h2>Total space on disk: <font color="blue">{disk_t:.5}</font> Gb</h2></li>
+        </ul>
+        <br>
+        <button onclick="window.location.href='/'"><h2>Вернуться назад</h2></button>
+    </body>
+</html>
